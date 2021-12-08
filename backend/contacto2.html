@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/planb.css">
+   <script src="app.js"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div id="global">
+        <div id="encabezado">
+            <h1>Contactanos</h1>
+        </div>
+        <div id="contenedor">
+            <div id="informacion">
+                <p>
+                <h2>Información de contacto</h2>
+                </p>
+                <div id="cel">
+                    <img src="img/tel.png" alt="telefono" id="imgCel">
+                    <h2>477 135 0043</h2>
+                </div>
+                <div id="cor">
+                    <img src="img/cor.png" alt="telefono" id="imgCel">
+                    <h2>energiasequible@gmail.com</h2>
+                </div>
+                <div id="ubi">
+                    <img src="img/ubi.png" alt="telefono" id="imgCel">
+                    <h2>Av. universidad 12</h2>
+                </div>
+                <div id="redes">
+                    <div class="logo">
+                        <a href="https://www.facebook.com"> <img src="img/facebookLogo.png" class="imgLogo" alt=""></a>
+                    </div>
+                    <div class="logo">
+                        <a href="https://www.instagram.com"><img src="img/instaLogo.png" class="imgLogo" alt=""></a>
+                    </div>
+                    <div class="logo">
+                        <a href="https://www.twitter.com"> <img src="img/twiterLogo.png" class="imgLogo" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div id="form">
+
+
+
+                <form action="" id="formulario">
+                    <div class="label">
+                        <label for="name">Nombre</label>
+                        <label for="lname" id="lapellido">Apellido </label>
+                    </div>
+                    <div id="nom">
+                        <input type="text" id="name" class="txt">
+                        <input type="text" id="lname" class="txt">
+                    </div>
+                    <div class="label">
+                        <label for="mail">Correo</label>
+                        <label for="lname" id="lapellido">Telefono </label>
+                    </div>
+                    <div id="cont">
+
+                        <input type="text" id="mail" class="txt">
+                        <input type="text" id="phone" class="txt">
+                    </div>
+                    <div id="lmensaje">
+                        <label for="name">Mensaje</label>
+
+                    </div>
+                    <div id="mensaje">
+
+                        <input type="textarea" placeholder="Escribe tu mensaje" id="mss">
+                    </div>
+
+                    <input type="submit" onclick="enviarForm()" value="Enviar">
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

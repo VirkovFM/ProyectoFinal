@@ -1,0 +1,87 @@
+<div id="global">
+  <div id="encabezado">
+    <h1>Contactanos</h1>
+  </div>
+  <div id="contenedor">
+    <div id="informacion">
+      <h2>Información de contacto</h2>
+
+      <div id="cel">
+        <img src="../../assets/tel.png" alt="telefono" id="imgCel" />
+        <h2>477 135 0043</h2>
+      </div>
+      <div id="cor">
+        <img src="../../assets/cor.png" alt="telefono" id="imgCel" />
+        <h2>energiasequible@gmail.com</h2>
+      </div>
+      <div id="ubi">
+        <img src="../../assets/ubi.png" alt="telefono" id="imgCel" />
+        <h2>Av. universidad 12</h2>
+      </div>
+      <div id="redes">
+        <div class="logo">
+          <a href="https://www.facebook.com">
+            <img src="../../assets/facebookLogo.png" class="imgLogo" alt=""
+          /></a>
+        </div>
+        <div class="logo">
+          <a href="https://www.instagram.com"
+            ><img src="../../assets/instaLogo.png" class="imgLogo" alt=""
+          /></a>
+        </div>
+        <div class="logo">
+          <a href="https://www.twitter.com">
+            <img src="../../assets/twiterLogo.png" class="imgLogo" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="form" class="container">
+      <form action="" id="formulario">
+        <div class="flex-row">
+          <label for="name">Nombre</label>
+          <label for="lname" id="lapellido">Apellido </label>
+        </div>
+        <div id="nom" class="flex-row">
+          <input type="text" id="name" class="txt" />
+          <input type="text" id="lname" class="txt" />
+        </div>
+        <br>
+        <div class="flex-row">
+          <label for="mail">Correo</label>
+          <label for="lname" id="lapellido">Telefono </label>
+        </div>
+        <div class="flex-row">
+          <input type="text" id="mail" class="txt" />
+          <input type="text" id="phone" class="txt" />
+        </div>
+        <div id="lmensaje" class="flex-row">
+          <label for="name">Mensaje</label>
+        </div>
+        <br>
+        <div id="mensaje" class="flex-row">
+          <input type="textarea" placeholder="Escribe tu mensaje" id="mss" />
+        </div>
+
+        <input type="button" id="btn" (click)="handleSubmit()" value="Enviar" />
+      </form>
+    </div>
+  </div>
+  <div class="modal fade" id="ventana1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/art10.jpeg">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

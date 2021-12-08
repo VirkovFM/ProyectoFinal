@@ -1,0 +1,157 @@
+#global{
+   
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#encabezado{
+  
+  width: 100%;
+  text-align: center;
+  
+}
+#contenedor{
+  display: flex;
+  width: auto;
+  align-items: center;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#informacion{
+  background-color: rgb(173, 173, 173);
+  width: 42%;
+  height: 100%;
+  
+}
+#form{
+  background-color: white;
+  justify-content: center;
+  height: 100%;
+  width: 100%
+
+}
+/*etiquetas*/
+.label{
+  margin-left: 20%;
+  margin-top: 10%;
+}
+#lapellido{
+  text-align: left;
+  
+}
+#lmensaje{
+  text-align: center;
+  margin-top: 30%;
+}
+/* inputs*/
+.txt{
+  width: 50%;
+  margin-left: 12px;
+  margin-top: 12px;
+  border-top: hidden;
+  border-left: hidden;
+  text-align: center;
+  border-right: hidden;
+}
+#cont{
+  margin-top: 1%;
+}
+#name{
+  /* margin-left: 20%; */
+}
+#lname{
+  margin-left: 15% !important;
+}
+#mail{
+  /* margin-left: 20% !important; */
+}
+#phone{
+  margin-left: 15% !important;
+}
+#mensaje{
+  margin-top: 0% !important;
+  /* margin-left: 20% !important; */
+ 
+}
+#mss{
+  width: 500px !important; 
+  height: 60px !important;
+  border-top: hidden !important;
+  border-left: hidden !important;
+  border-right: hidden !important;
+  max-lines: 4 !important;
+}
+#boton{
+  border-radius: 7% !important;
+  margin-top: 4% !important;
+  margin-left: 42% !important;
+}
+/*divs de la informacion*/
+h2{
+  text-align: center!important;
+}
+#cel{
+  display: flex !important;
+  margin-top: 10% !important;
+ 
+}
+#imgCel{
+  height:50px !important;
+  margin-left: 4% !important;
+}
+#cor{
+  display: flex !important;
+ margin-top: 10% !important;
+}
+#imgCor{
+  height:50px !important;
+  margin-left: 4% !important;
+}
+#ubi{
+  display: flex !important;
+  margin-top: 10% !important;
+}
+#imgUbi{
+  height:50px !important;
+  margin-left: 4% !important;
+}
+/*redes*/
+#redes{
+  display: flex !important;
+  
+  height: 30%!important;
+}
+.logo{
+  margin-left: 10%!important;
+
+  
+
+}
+
+.imgLogo{
+  height: 40% !important;
+  margin-top: 140% !important;
+ }
+
+ .error{
+  border-color: red !important;
+}
+ .flex-row{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.flex-column{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: ali !important;
+}
+
+#btn{
+  margin-top: 1rem !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

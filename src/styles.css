@@ -1,1 +1,157 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  
+  body {
+    /* background: url("https://ih1.redbubble.net/image.856552558.8212/flat,750x1000,075,f.u1.jpg"); */
+    background-attachment: fixed;
+  }
+  #piePagina{
+    padding: 30px;
+    background:rgb(29, 28, 28);
+    color:white;
+    text-align: center;
+  }
+  #global {
+    width: 65%;
+    margin: 0px auto;
+    padding: 30px;
+    background: white;
+    
+    /* box-shadow: 1px 1px 10px  9px #888888; */
+    text-align: center;
+    align-items: center;
+}
+#imgg{
+    width: 100%;
+}
+
+#subtitulo{
+  text-align: left;
+  font-size: 28px;
+}
+
+#global p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+
+/* 
+#menu {
+    font-family: Helvetica, Arial;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  } */
+  
+  #menu ul li {
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+  }
+  
+  #menu ul li a {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    display: block;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+  } 
+  #logo{
+      height: 46px;
+  }
+
+
+  #articulos {
+    width: 100%;
+    font-family: Helvetica, Arial;
+  }
+  .articulos {
+    padding: 5px;
+  }
+
+  .articulos h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #333;
+  }
+  .articulos .autor {
+    display:block;
+    color: gray;
+    margin-top: 10;
+    text-align: center !important;
+  }
+  .articulos .biblio {
+    display:block;
+    color: gray;
+    margin-top: 10;
+    text-align: left !important;
+    font-size: 1rem !important;
+  }
+  .articulos p {
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  } 
+  .button-more {
+    box-shadow: 0px 0px 0px 1px gray;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70px;
+  }
+
+  /*Para el tamaño del alto del slider*/
+/* .bx-wrapper,
+.bx-viewport {
+  height: 300px !important;
+  align-items: center;
+} */
+
+.nav-item{
+  display: flex;
+  font-size: 1.4rem !important;
+  align-items: center;
+}
+.pieImg{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.iconos{
+  color: beige !important;
+  width: 180px;
+  font-size: 2rem;  
+}
+.footer_links{
+    display: flex;
+    width: 300px;
+    color:beige !important;
+    justify-content: space-between;
+}
+a{
+  text-decoration: none !important;
+  
+}
+.iconos a{
+  color:beige !important;
+}
+/*Tamaño de letra de los articulos*/
+.articuloC{
+  font-size: 1.3rem;
+  margin-top: 5px;
+}

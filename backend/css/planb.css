@@ -1,0 +1,141 @@
+
+body{
+    background-color: rgb(48, 150, 48);
+   
+}
+/*Contenedores */
+#global{
+   
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#encabezado{
+    
+    width: 100%;
+    text-align: center;
+    
+}
+#contenedor{
+    display: flex;
+    width: auto;
+    align-items: center;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#informacion{
+    background-color: aqua;
+    width: 42%;
+    height: 100%;
+    
+}
+#form{
+    background-color: white;
+    justify-content: center;
+    height: 100%;
+    width: 100%
+
+}
+/*etiquetas*/
+.label{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#lapellido{
+    margin-left: 35%;
+}
+#lmensaje{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+/* inputs*/
+.txt{
+    margin-left: 5%;
+    margin-top: 2%;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+#cont{
+    margin-top: 1%;
+}
+#name{
+    margin-left: 20%;
+}
+#lname{
+    margin-left: 15%;
+}
+#mail{
+    margin-left: 20%;
+}
+#phone{
+    margin-left: 15%;
+}
+#mensaje{
+    margin-top: 0%;
+    margin-left: 20%;
+   
+}
+#mss{
+    width: 500px; 
+    height: 60px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    max-lines: 4;
+}
+#boton{
+    border-radius: 7%;
+    margin-top: 4%;
+    margin-left: 42%;
+}
+/*divs de la informacion*/
+h2{
+    text-align: center;
+}
+#cel{
+    display: flex;
+    margin-top: 10%;
+   
+}
+#imgCel{
+    height:50px;
+    margin-left: 4%;
+}
+#cor{
+    display: flex;
+   margin-top: 10%;
+}
+#imgCor{
+    height:50px;
+    margin-left: 4%;
+}
+#ubi{
+    display: flex;
+    margin-top: 10%;
+}
+#imgUbi{
+    height:50px;
+    margin-left: 4%;
+}
+/*redes*/
+#redes{
+    display: flex;
+    
+    height: 30%
+}
+.logo{
+    margin-left: 10%;
+  
+    
+ 
+}
+
+.imgLogo{
+    height: 40%;
+    margin-top: 140%;
+   }
+
+   .error{
+    border-color: red;
+}
